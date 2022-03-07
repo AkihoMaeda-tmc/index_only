@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>デジタル物情アプリ</title>
+  <link href="css/LeftSidebarItem.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/draw-line.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://unpkg.com/mirotone/dist/styles.css">
+</head>
+
+<body>
+  <div class="title">デジタル物情アプリ</div>
+  <div class="grid">
+    <!-- App: Drag-and-Drop -->
+    <div class="cs1 ce12">
+      <div class="top-line"></div>
+    </div>
+    <div class="cs1 ce12">
+      <p class='font1'>記号</p>
+      <p class='font2'>(ドラッグ&ドロップで使用)</p>
+    </div>
+    <div class="cs1 ce12">
+      <div id="container"></div>
+    </div>
+
+    <!-- App: 物の流れ線描写モード -->
+    <div class="cs1 ce12">
+      <div class="top-line"></div>
+    </div>
+    <div class="cs1 ce10">
+      <p class='font1'>物の流れ線描写モード</p>
+      <p class='font2'>(モードON後繋ぎたい工程間をクリック)</p>
+    </div>
+    <div class="cs11 ce12">
+      <div id="toggle-frame"><label class="toggle mode-change"><input type="checkbox" tabindex="0"><span></span></label>
+      </div>
+    </div>
+
+    <!-- App: サイズ一括変更 -->
+    <div class="cs1 ce12">
+      <div class="top-line"></div>
+    </div>
+    <div class="cs1 ce12">
+      <p class='font1'>文字サイズ、記号幅一括変更</p>
+      <p class='font2'>
+        選択した範囲内の工程を一括編集します。<br>
+        ※他のオブジェクトを選択していても問題ありません
+      </p>
+    </div>
+    <div class="cs1 ce12 grid"  id="size-change">
+      <div class="cs1 ce12">
+        <label class="label">
+          <p class='font2'>文字サイズ：</p>
+        </label>
+      </div>
+      <div class="cs2 ce5">
+        <button type="button" class="button-small font recommend button-primary btn-style" id="selectedBtnFontSize">推奨値(64px)</button>
+      </div>
+      <div class="cs6 ce7">
+        <button type="button" class="button-small font up button-secondary" id="selectedBtnFontLarger">大きく</button>
+      </div>
+      <div class="cs9 ce10">
+        <button type="button" class="button-small font down button-secondary" id="selectedBtnFontSmaller">小さく</button>
+      </div>
+
+      <div class="cs1 ce12">
+        <label class="label">
+          <p class='font2'>記号幅：</p>
+        </label>
+      </div>
+      <div class="cs2 ce5">
+        <button type="button" class="button-small width recommend button-primary btn-style" id="selectedBtnWidth">推奨値(140px)</button>
+      </div>
+      <div class="cs6 ce7">
+        <button type="button" class="button-small width up button-secondary" id="selectedBtnWidthLarger">広く</button>
+      </div>
+      <div class="cs9 ce10">
+        <button type="button" class="button-small width down button-secondary" id="selectedBtnWidthSmaller">狭く</button>
+      </div>
+    </div>
+    <div class="cs1 ce12"></div>
+
+    <!-- App: 工程のみ選択 -->
+    <div class="cs1 ce12">
+      <div class="top-line"></div>
+    </div>
+    <div class="cs1 ce12">
+      <p class='font1'>工程記号のみ選択</p>
+      <p class='font2'>
+        選択した範囲内で工程オブジェクトのみを再選択します。
+      </p>
+    </div>
+    <div class="cs2 ce5">
+      <button type="button" class="button-small button-primary btn-style" id="Select_only_Process">工程ONLY</button>
+    </div>
+
+    <!-- ↓は画面幅調整用（小さくした時の余白） -->
+    <div class="cs1 ce12" style="width:50px;"></div>
+
+  </div>
+
+  <script src="https://miro.com/app/static/sdk.1.1.js"></script>
+  <script src="src/LeftSidebarItem.js"></script>
+  <script type="text/javascript" src="src/draw-line.js"></script>
+  <script type="module" src="src/app.js"></script>
+  <script type="module" src="src/SelectOnlyProcess.js"></script>
+</body>
+
+</html>
