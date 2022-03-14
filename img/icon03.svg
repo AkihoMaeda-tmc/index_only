@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <rect x="0.1" y="-0.1" width="58" height="58" rx="11" style="fill: #f5f5f7"/>
+  <rect x="28.2" y="12.3" width="2.2" height="1" style="fill: #000026"/>
+  <rect x="24" y="6.8" width="1" height="2.22" style="fill: #000026"/>
+  <polygon points="25 4.6 24 4.6 24 2.6 26 2.6 26 3.6 25 3.6 25 4.6" style="fill: #000026"/>
+  <rect x="28.2" y="2.6" width="2.2" height="1" style="fill: #000026"/>
+  <polygon points="34.7 4.6 33.7 4.6 33.7 3.6 32.7 3.6 32.7 2.6 34.7 2.6 34.7 4.6" style="fill: #000026"/>
+  <rect x="33.7" y="6.8" width="1" height="2.22" style="fill: #000026"/>
+  <rect x="28.2" y="22" width="2.2" height="1" style="fill: #000026"/>
+  <rect x="24" y="16.5" width="1" height="2.22" style="fill: #000026"/>
+  <polygon points="25 12.3 25 11.3 24 11.3 24 14.3 25 14.3 25 13.3 26 13.3 26 12.3 25 12.3" style="fill: #000026"/>
+  <rect x="28.2" y="12.3" width="2.2" height="1" style="fill: #000026"/>
+  <polygon points="33.7 11.3 33.7 12.3 32.7 12.3 32.7 13.3 33.7 13.3 33.7 14.3 34.7 14.3 34.7 11.3 33.7 11.3" style="fill: #000026"/>
+  <rect x="33.7" y="16.5" width="1" height="2.22" style="fill: #000026"/>
+  <rect x="24" y="26.2" width="1" height="2.22" style="fill: #000026"/>
+  <polygon points="25 22 25 21 24 21 24 24 25 24 25 23 26 23 26 22 25 22" style="fill: #000026"/>
+  <rect x="28.2" y="22" width="2.2" height="1" style="fill: #000026"/>
+  <polygon points="33.7 21 33.7 22 32.7 22 32.7 23 33.7 23 33.7 24 34.7 24 34.7 21 33.7 21" style="fill: #000026"/>
+  <rect x="33.7" y="26.2" width="1" height="2.22" style="fill: #000026"/>
+  <rect x="25" y="32.6" width="8.7" height="8.67" style="fill: #d3d3d3"/>
+  <path d="M33.7,30.6v1H25v-1H24V42.3H34.7V30.6Zm0,10.7H25V32.6h8.7Z" style="fill: #000026"/>
+  <text transform="translate(13.6 53.1)" style="font-size: 8px;font-family: Meiryo">工<tspan x="8" y="0" style="letter-spacing: 0.25em">程</tspan><tspan x="18" y="0">1/4</tspan></text>
+</svg>

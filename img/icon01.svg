@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <rect x="0.1" y="-0.1" width="58" height="58" rx="11" style="fill: #f5f5f7"/>
+  <rect x="25" y="3.6" width="8.7" height="37.67" style="fill: #d3d3d3"/>
+  <path d="M34.7,42.3H24V2.6H34.7Zm-9.7-1h8.7V3.6H25Z" style="fill: #000026"/>
+  <text transform="translate(21.3 53.1)" style="font-size: 8px;font-family: Meiryo">工程</text>
+</svg>
